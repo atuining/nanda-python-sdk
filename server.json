@@ -1,0 +1,36 @@
+{
+  "name": "string",
+  "slug": "lONELIjhz0oHRc_Za-L0-UM6nHlmbjwoh_3klMbbfOiN8fD1",
+  "description": "string",
+  "provider": "string",
+  "url": "string",
+  "documentation_url": "string",
+  "types": ["agent"],
+  "tags": ["string"],
+  "logo": "string",
+  "capabilities": [
+    {
+      "name": "string",
+      "description": "string",
+      "type": "agent",
+      "parameters": [
+        {
+          "name": "string",
+          "description": "string",
+          "type": "string",
+          "required": true,
+          "default": "string"
+        }
+      ],
+      "examples": ["string"]
+    }
+  ],
+  "protocols": ["string"],
+  "usage_requirements": {
+    "authentication_required": true,
+    "authentication_type": "none",
+    "rate_limits": "string",
+    "pricing": "string"
+  },
+  "contact_email": "user@example.com"
+}
