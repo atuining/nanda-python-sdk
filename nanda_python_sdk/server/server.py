@@ -4,7 +4,11 @@ from pydantic import BaseModel, EmailStr, HttpUrl
 
 
 class Paramter(BaseModel):
-    name: str = ""
+    name: str
+    description: str
+    type: str
+    required: bool
+    default: str
 
 
 class Capability(BaseModel):
